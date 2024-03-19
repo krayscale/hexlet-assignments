@@ -13,7 +13,7 @@ class ApplicationTest {
     public void testInspect() {
         Application.main(null);
 
-        final var expected1 = "Method getCity returns a value of type java.lang.String";
+        final var expected1 = "Method getCity returns a value of type class java.lang.String";
         final var expected2 = "Method getPostalCode returns a value of type int";
         final var notExpected = "getFullAddress";
 
