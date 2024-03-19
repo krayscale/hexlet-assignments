@@ -3,7 +3,6 @@ package exercise;
 import exercise.model.Address;
 import exercise.annotation.Inspect;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class Application {
